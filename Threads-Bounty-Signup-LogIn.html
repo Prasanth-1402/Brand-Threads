@@ -1,0 +1,80 @@
+<!-- Made use of embedded CSS Styles to finish it in a single file -->
+<html>
+  <head>
+    <title>Threads Bounty Signup Login</title><!-- tab name-->
+    <link rel="icon" href="http://bountyandthreads.com/brand-threads/public/images/brandthreads-fav.png"/> <!-- tab icon-->
+    <style>
+    .App {
+        text-align: center;
+        font-family: comfortaabold, sans-serif;
+        margin-top: 10%;
+        position: relative;
+      }
+
+      .img__thread{
+        margin-bottom: 60px;
+        width: 190px;
+        height: 70px;
+      }
+      .home__button{
+          margin-top: 7px;
+        background-color: #dd2d37;
+        color: white;
+        border: 1px solid white;
+        border-radius: 20px !important;
+        width: 375px;
+        height: 60px;
+        font-size: 1.2rem;
+        letter-spacing:10px;
+        pointer-events: cursor;
+      }
+      .img__influencer{
+          margin-top: 2%;
+          margin-bottom:2%;
+          width: 375px;
+          pointer-events: cursor;
+      }
+      .home__footer {
+           font-size: 15px;
+           margin-top: 5%;
+           position: relative;
+           text-align: center;
+        }
+        .img__bounty{
+        margin-bottom: 10px;
+        width: 190px;
+        height: 70px;
+      }
+      .cursor:hover{
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="App"> <!-- a container to hold the elements of the page-->
+        <img
+          class="img__thread"
+          color="danger"
+          src="http://bountyandthreads.com/brand-threads/public/images/thread-red-logo.png"
+          alt="thread_image"
+        ></img>
+        <h2>Sign Up/Log In As</h2>
+        <Button
+          class="home__button cursor"
+          color="danger"
+        >
+          BRAND
+        </Button>
+        <div>
+          <img class="img__influencer cursor" src="http://bountyandthreads.com/brand-threads/public/images/green-ribbon.png" alt="influence_image"></img>
+        </div>
+        <div>
+          <img class="img__bounty" src="http://bountyandthreads.com/brand-threads/public/images/bounty-logo.png" alt="bounty_image"></img>
+        </div>
+      </div>
+      <p class="home__footer">
+        <a href="policy.html">Privacy Ploicy</a> | <a href="terms-Conditions.html">Terms & conditions</a>
+      <!-- Spelling mistake(policy) was made in above line purposefully as the same was seen in sample site-->
+      </p>
+</body>
+</html>
